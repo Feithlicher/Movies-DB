@@ -1,7 +1,8 @@
 import React from "react";
-
 const SearchBox = (props) => {
-    return ();
+    return (
+        <div>heading</div>
+    );
 };
 
 export default SearchBox;
