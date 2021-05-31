@@ -4,6 +4,7 @@ import "./App.css";
 // import Movies from "./Components/Movies";
 import MoviesHeading from "./Components/MoviesHeading";
 // import SearchBox from "./Components/SearchBox";
+// import SearchBox from "./Components/SearchBox";
 // import AddToFavorites from "./Components/AddToFavorites";
 
 const API_KEY = "598d1c39"; // to OMDB
@@ -13,6 +14,7 @@ const App = () => {
     return (
         <div className='first'>
             <MoviesHeading />
+            {/* <SearchBox /> */}
         </div>
     )
 };
