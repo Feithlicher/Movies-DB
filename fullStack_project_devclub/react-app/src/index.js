@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Movies from "./Components/Movies";
 import reportWebVitals from './reportWebVitals';
 import "bootstrap-material-design/dist/css/bootstrap-material-design.min.css";
 
@@ -9,6 +10,7 @@ import "bootstrap-material-design/dist/css/bootstrap-material-design.min.css";
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    {/* <Movies /> */}
   </React.StrictMode>,
   document.getElementById('root')
 );
